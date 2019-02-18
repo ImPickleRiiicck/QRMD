@@ -1,0 +1,11 @@
+127.0.0.1 - - [13/Feb/2019:14:42:00 -0500] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:14:42:02 -0500] "GET /QRMD/PatientInfoScreen.jsp HTTP/1.1" 200 3890
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:14:42:51 -0500] "GET /QRMD/PatientInfoScreen.jsp HTTP/1.1" 200 3889
+127.0.0.1 - - [13/Feb/2019:14:43:13 -0500] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:14:43:14 -0500] "GET /QRMD/PatientInfoScreen.jsp HTTP/1.1" 200 3889
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:14:43:55 -0500] "GET /QRMD/PatientInfoScreen.jsp HTTP/1.1" 200 3889
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:14:43:58 -0500] "POST /QRMD/qrmdForm HTTP/1.1" 200 16
+127.0.0.1 - - [13/Feb/2019:15:08:04 -0500] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:15:08:05 -0500] "GET /QRMD/qrmdForm HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:15:08:12 -0500] "GET /QRMD/qrmdForm HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:15:08:19 -0500] "GET /QRMD/PatientInfoScreen.jsp HTTP/1.1" 200 3889

@@ -1,0 +1,5 @@
+package qrmd.servlet;
+
+public class qrmdForm {
+
+}

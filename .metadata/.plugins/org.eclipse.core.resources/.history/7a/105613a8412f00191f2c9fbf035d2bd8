@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QRMD</title>
+</head>
+<style>
+    p
+    {
+        color: black;
+    }
+</style>
+            <body>
+                <font color="black" size="3">
+                    <div align="center">
+                        <h1>QRMD</h1>
+                        <form action="qrmd.servlet.qrmdForm.java" method="post">
+                            <table style="background-color: royalblue" align="center" width="75%" border="0" cellspacing="0" cellpadding="2">
+                                <tr>
+                                    <td width="20%">&nbsp;</td>
+                                    <td width="30%">&nbsp;</td>
+                                    <td width="20%">&nbsp;</td>
+                                    <td width="30%">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">First Name: </td>
+                                    <td><input type="text" name="firstName"></td>
+                                    <td align="center">Last Name: </td>
+                                    <td><input type="text" name="lastName"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Address 1: </td>
+                                    <td><input type="text" name="address1"></td>
+                                    <td align="center">Address 2: </td>
+                                    <td><input type="text" name="address2"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">State: </td>
+                                    <td><input type="text" name="state"></td>
+                                    <td align="center">Zip Code: </td>
+                                    <td><input type="text" name="zipCode"></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td><input type="submit" name="submit" value="Submit" onClick="submit"></td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                </table>
+                                </form>
+                        </div>
+                </font>
+            </body>
+</html>
